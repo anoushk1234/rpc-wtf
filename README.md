@@ -1,5 +1,4 @@
 # rpc-wtf
-bunch of scripts to setup rpc node so u dont pull your hair our saying wtf
 
 considering you have an s3 large(512gb ram) this shud work, if you have lesser either reduce ramdisk space or just move to ssd folders
 
