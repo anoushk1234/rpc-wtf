@@ -3,8 +3,8 @@
 # --no-genesis-fetch \
 # these two above commands are required if you already have a snapshot otherwise REMOVE THEM else it wont work
 
-/home/<USER>/<NAME-OF-YOUR-RPC-BINARY>/target/release/solana-validator \
-  --identity ./test-keypair.json \
+ls /home/solana/.local/share/solana/install/active_release/bin/solana-validator \
+--identity ./test-keypair.json \
   --vote-account ./test-keypair.json \
   --rpc-port 8899 \
   --entrypoint entrypoint.devnet.solana.com:8001 \
